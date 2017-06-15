@@ -9,3 +9,28 @@ body,html {
   font-family: sans-serif;
   height: 100%;
 }
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 51vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: 0.4rem solid black;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  width: 4rem;
+  text-align: center;
+  color: green;
+  background: rgba(0, 0, 0, 0.4);
+  text-shadow: 0 0 .5rem black;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
