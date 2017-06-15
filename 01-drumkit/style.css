@@ -1,0 +1,11 @@
+html {
+  background: url(https://static1.squarespace.com/static/51d31661e4b0a433e9c1b53b/t/555f0fcde4b07f0c9543eb48/1432293360189/big_c4e09d3a7f9ee18c486b00dd11676c24b416c541.jpg?format=2500w) bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  height: 100%;
+}
