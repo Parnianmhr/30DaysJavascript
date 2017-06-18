@@ -22,9 +22,9 @@ body {
 }
 
 img {
-  padding: var(--spcing);
-  background: var(--base);
-  filter: blur(var(--blur));
+ padding: var(--spacing);
+ background: var(--base);
+ filter: blur(var(--blur));
 }
 
 .h1 {
