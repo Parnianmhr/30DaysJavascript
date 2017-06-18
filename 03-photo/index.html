@@ -12,14 +12,23 @@
       <input id='spacing' type='range' name='spacing' min='10' max='200' value='10' data-sizing='px'>
 
       <lable for=blur>Blur:</lable>
-      <input id='blur' type='range' name='blur' min='0' max='25' value='10' data-sizing='px'>
+      <input id='blur' type='range' name='blur' min='0' max='25' value='0' data-sizing='px'>
 
 
       <lable for=base>Base color:</lable>
       <input id='base' type='color' name='base' min='10' max='200' value="#ffc600">
     </div>
     <img src="https://source.unsplash.com/7bwQXzbF6KE/800x500">
+
     <script>
+      const inputs = document.querySelectorAll('.contorls input');
+
+      function handleUpdate() {
+        console.log(this.value)
+      }
+
+      inputs.forEach(input => input.addEventListener('change', handleUpdate));
+      inputs.forEach(input => input.addEventListener('mousemove', handleUpdate));
 
     </script>
   </body>
