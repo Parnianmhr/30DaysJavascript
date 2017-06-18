@@ -10,7 +10,23 @@ body {
   .controls {
     margin-bottom: 50px;
   }
-  
+
   input {
     width:100px;
   }
+
+:root {
+  --base: #ffc600;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+img {
+  padding: var(--spcing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
+
+.h1 {
+  color: var(--base);
+}
